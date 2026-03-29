@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GitCommit: Identifiable, Equatable {
+struct GitCommit: Identifiable, Equatable, Hashable {
     let id: String // SHA hash
     let shortHash: String
     let author: String
